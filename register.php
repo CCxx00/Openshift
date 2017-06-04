@@ -11,7 +11,7 @@
 		exit();	
 	}
 
-    $mysql=mysqli_connect("localhost","root","zll1212hxe","php");
+    $mysql=mysqli_connect("172.30.29.218:3306","zll","zll1212hxe","mysqldb");
 	
 	if(!$mysql)
 		echo "<script>alert('链接失败');history.back();</script>";
