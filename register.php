@@ -14,7 +14,7 @@
     $mysql=mysqli_connect("localhost","zll","zll1212hxe","mysqldb");
 	
 	if(!$mysql)
-		echo "<script>alert('aaabb');history.back();</script>";
+		echo "<script>alert('aaa');history.back();</script>";
 	mysqli_set_charset($mysql, 'utf8');
 	$sql="select * from wzny";
 	$y=mysqli_query($mysql, $sql);
